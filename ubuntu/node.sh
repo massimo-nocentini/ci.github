@@ -1,4 +1,6 @@
 
+pwd
+
 wget https://github.com/nodejs/node/archive/refs/tags/v22.1.0.tar.gz
 tar xfz v22.1.0.tar.gz
 cd node-v22.1.0
