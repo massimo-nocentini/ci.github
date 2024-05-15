@@ -1,10 +1,10 @@
 
 pwd
 
-wget https://github.com/nodejs/node/archive/refs/tags/v22.1.0.tar.gz
+wget https://github.com/nodejs/node/archive/refs/tags/v22.1.0.tar.gz --no-verbose
 tar xfz v22.1.0.tar.gz
 ls
-cd node-v22.1.0
+cd node-22.1.0
 ./configure --shared
 make -j16
 sudo make install
