@@ -31,7 +31,7 @@ jobs:
           path: nodejs
 
       # Runs a single command using the runners shell
-      - name: Install dependencies via `apt`
+      - name: Install dependencies
         run: sudo apt-get install -y libnode-dev build-essential cmake
 
       # Runs a set of commands using the runners shell
