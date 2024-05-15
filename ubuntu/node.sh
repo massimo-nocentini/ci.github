@@ -1,5 +1,5 @@
 
-wget https://nodejs.org/dist/v22.1.0/node-v22.1.0.tar.gz
+wget https://github.com/nodejs/node/archive/refs/tags/v22.1.0.tar.gz
 tar xfz node-v22.1.0.tar.gz
 cd node-v22.1.0
 ./configure --shared
